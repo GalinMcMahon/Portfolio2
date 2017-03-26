@@ -1,14 +1,51 @@
 #picofme {
-  position: relative;
-  height: 500px;
+  position: absolute;
+  height: 600px;
   /*float: left;*/
-  margin-top: 10px;
+  margin-top: -30px;
   z-index: 1;
   margin-left: 0px;
 }
 
+@media screen and (max-width: 1112px) {
+  #picofme {
+    height: 500px;
+  }
+}
+
 h1 {
-  font-size: 50px;
+  font-size: 70px;
+}
+
+@media screen and (max-width: 992px) {
+  #picofme {
+    height: 400px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  #picofme {
+    height: 300px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  h1 {
+    font-size: 40px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
 }
 
 .body {
@@ -24,18 +61,20 @@ h1 {
     z-index: -1;
 }
 
+@media screen and (max-width: 992px) {
+  #contentWrapper {
+    height: 100px;
+  }
+}
+
 .myName {
   color: grey;
   z-index: 1;
   font-size: 100px;
   position: relative;
   margin-top: 10px;
-  margin-left: 30%;
+  margin-left: 40%;
 }
-
-/*.textPanels {
-  margin-top: 100px;
-}*/
 
 .red {
   color: red;
@@ -43,28 +82,28 @@ h1 {
 
 .container {
   margin-left: -30px;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 
 .panel-heading {
-  color: white;
+  color: red;
 }
 
 .panelAbout {
   display: none;
 }
 
-/*.panelResume {
+.panelResume {
   display: none;
-}*/
+}
 
 .panelInterests {
   display: none;
 }
 
-.panelProjects {
+/*.panelProjects {
   display: none;
-}
+}*/
 
 .panelProjects img {
   width: 75px;
