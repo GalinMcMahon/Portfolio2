@@ -1,17 +1,27 @@
 #picofme {
-  position: absolute;
+  position: relative;
   height: 500px;
-  float: left;
-  margin-top: 150px;
+  /*float: left;*/
+  margin-top: 10px;
   z-index: 1;
+  margin-left: 0px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.body {
+  margin: 0px;
 }
 
 #contentWrapper {
+    position: absolute;
     width: 100%;
-    margin-top: 100px;
+    margin-top: -20px;
     background: black;
     height: 132px;
-    /*z-index: 0;*/
+    z-index: -1;
 }
 
 .myName {
@@ -19,14 +29,56 @@
   z-index: 1;
   font-size: 100px;
   position: relative;
-  margin-top: -100px;
-  margin-left: 70%;
+  margin-top: 10px;
+  margin-left: 30%;
 }
 
-body{
-  margin-top: 20px;
-}
+/*.textPanels {
+  margin-top: 100px;
+}*/
 
 .red {
   color: red;
+}
+
+.container {
+  margin-left: -30px;
+  margin-top: -20px;
+}
+
+.panel-heading {
+  color: white;
+}
+
+.panelAbout {
+  display: none;
+}
+
+/*.panelResume {
+  display: none;
+}*/
+
+.panelInterests {
+  display: none;
+}
+
+.panelProjects {
+  display: none;
+}
+
+.panelProjects img {
+  width: 75px;
+  height: 70px;
+  float: left;
+  padding: 3px;
+}
+
+.panelProjects p {
+  color: black;
+  text-align: center;
+}
+
+.panelProjects .panel {
+  margin: 1px;
+  border-width: 1px;
 }
