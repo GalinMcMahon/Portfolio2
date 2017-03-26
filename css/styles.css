@@ -1,0 +1,32 @@
+#picofme {
+  position: absolute;
+  height: 500px;
+  float: left;
+  margin-top: 150px;
+  z-index: 1;
+}
+
+#contentWrapper {
+    width: 100%;
+    margin-top: 100px;
+    background: black;
+    height: 132px;
+    /*z-index: 0;*/
+}
+
+.myName {
+  color: grey;
+  z-index: 1;
+  font-size: 100px;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 70%;
+}
+
+body{
+  margin-top: 20px;
+}
+
+.red {
+  color: red;
+}
