@@ -1,16 +1,10 @@
 #picofme {
-  position: absolute;
-  height: 600px;
-  /*float: left;*/
+  position: auto;
+  height: 400px;
+  float: left;
   margin-top: -30px;
   z-index: 1;
   margin-left: 0px;
-}
-
-@media screen and (max-width: 1112px) {
-  #picofme {
-    height: 500px;
-  }
 }
 
 h1 {
@@ -89,30 +83,32 @@ h1 {
   color: red;
 }
 
-.panelAbout {
-  display: none;
+.textPanels {
+  margin-top: 10px;
 }
 
-.panelResume {
-  display: none;
+.textPanels2 {
+  position: auto;
+  margin-top: -30px;
 }
 
-.panelInterests {
-  display: none;
-}
-
-/*.panelProjects {
-  display: none;
-}*/
-
-.panelProjects img {
+.textPanels2 img {
   width: 75px;
   height: 70px;
-  float: left;
-  padding: 3px;
+  padding: 8px;
+  margin-left: 20%;
+}
+
+.panelProjects {
+  margin-left: 10px;
 }
 
 .panelProjects p {
+  color: black;
+  text-align: center;
+}
+
+.textPanels2 p {
   color: black;
   text-align: center;
 }
@@ -121,3 +117,21 @@ h1 {
   margin: 1px;
   border-width: 1px;
 }
+
+  .panel-body {
+    display: none;
+  }
+
+  button p {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  button {
+    border-radius: 10%;
+    padding: 1px;
+    margin: 1px;
+    background-color: white;
+    border-color: white;
+  }

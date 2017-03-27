@@ -3,138 +3,148 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Galin McMahon Portfolio</title>
   </head>
 
   <body>
-
-    <div id="contentWrapper">
-    </div>
+    <div id="contentWrapper"></div>
     <div class="myName">
       <h1>
         Galin McMahon
       </h1>
     </div>
+    <div class="col-xs-2">
+      <img src="img/portfoliopic.png" id="picofme" alt="picture of Galin">
+    </div>
 
     <div class="container">
-                       <!-- Header image of me -->
-      <div class="col-xs-2">
-        <img src="img/portfoliopic.png" id="picofme" alt="picture of Galin">
+      <div class="textPanels">
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-4">
+
+            <div class="panelAbout">
+              <div class="panel-heading"></div>
+                <button class="btn1">hide</button>
+                <button class="btn2"><p>about</p></button>
+              <div class="panel-body">
+                <p>I am a unicorn: a native Portlander.  See?<span class="red"> We do exist!</span>  I've lived in several place in my life.  In order they are:
+                </p>
+                <ol>
+                  <li>Portland</li>
+                  <li>South Carolina</li>
+                  <li>Portland</li>
+                  <li>New York</li>
+                  <li>Portland</li>
+                  <li>Hood River</li>
+                  <li>The Dalles</li>
+                  <li>Portland</li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="panelResume">
+              <div class="panel-heading"></div>
+                <button class="btn3">hide</button>
+                <button class="btn4"><p>what I've been doing</p></button>
+              <div class="panel-body">
+                <h3>Experience</h3>
+                  <p>AG-TEQ, Inc.</p>
+                  <p>AmeriTies West, LLC</p>
+                  <p>Innovative Composites Engineering</p>
+                <h3>Education</h3>
+                  <p>Epicodus</p>
+                  <p>Portland Community College</p>
+                  <p>Western Business College</p>
+              </div>
+            </div>
+
+            <div class="panelInterests">
+              <div class="panel-heading"></div>
+                <button class="btn5">hide</button>
+                <button class="btn6"><p>what keeps me going</p></button>
+              <div class="panel-body">
+                <h3>My interests include:</h3>
+                  <ul>
+                    <li>Environment</li>
+                    <li>Health</li>
+                    <li>Being Active</li>
+                    <li>Art</li>
+                  </ul>
+                <h3>My hobbies are:</h3>
+                  <ul>
+                    <li>Hiking</li>
+                    <li>Camping</li>
+                    <li>Kayaking</li>
+                    <li>Traveling</li>
+                    <li>Video gaming</li>
+                  </ul>
+                <h3>My skills include:</h3>
+                  <ul>
+                    <li>Video editing</li>
+                    <li>Photoshop</li>
+                    <li>MS Office</li>
+                    <li>Coding</li>
+                    <li>Customer service</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
+      <div class="textPanels2">
+        <div class="panel-heading">
+          <h2>past projects</h2>
+        </div>
 
-
-      <div class="textPanels">
-        <div class="col-xs-5 col-xs-offset-5">
-
-          <div class="panelAbout">
-            <div class="panel-heading">
-              <h2>about</h2>
-            </div>
-            <div class="panel-body">
-              <p>I am a unicorn: a native Portlander.  See?<span class="red"> We do exist!</span>  I've lived in several place in my life.  In order they are:
-              </p>
-              <ol>
-                <li>Portland</li>
-                <li>South Carolina</li>
-                <li>Portland</li>
-                <li>New York</li>
-                <li>Portland</li>
-                <li>Hood River</li>
-                <li>The Dalles</li>
-                <li>Portland</li>
-              </ol>
-            </div>
-          </div>
-
-          <div class="panelResume">
-            <div class="panel-heading">
-              <h2>what I've been doing</h2>
-            </div>
-            <div class="panel-body">
-              <h3>Experience</h3>
-                <p>AG-TEQ, Inc.</p>
-                <p>AmeriTies West, LLC</p>
-                <p>Innovative Composites Engineering</p>
-              <h3>Education</h3>
-                <p>Epicodus</p>
-                <p>Portland Community College</p>
-                <p>Western Business College</p>
-            </div>
-          </div>
-
-          <div class="panelInterests">
-            <div class="panel-heading">
-              <h2>what keeps me going</h2>
-            </div>
-            <div class="panel-body">
-              <h3>My interests include:</h3>
-            <ul>
-              <li>Environment</li>
-              <li>Health</li>
-              <li>Being Active</li>
-              <li>Art</li>
-            </ul>
-            <h3>My hobbies are:</h3>
-            <ul>
-              <li>Hiking</li>
-              <li>Camping</li>
-              <li>Kayaking</li>
-              <li>Traveling</li>
-              <li>Video gaming</li>
-            </ul>
-            <h3>My skills include:</h3>
-            <ul>
-              <li>Video editing</li>
-              <li>Photoshop</li>
-              <li>MS Office</li>
-              <li>Coding</li>
-              <li>Customer service</li>
-            </ul>
-            </div>
-          </div>
-
+        <div class="row">
           <div class="panelProjects">
-            <div class="panel-heading">
-              <h2>past projects</h2>
-            </div>
-            <div class="panel-body">
+            <div class="col-lg-2">
               <div class="panel panel-default">
                 <a href="https://github.com/GalinMcMahon/Island.git">
                 <img class="panel-image" src="img/island.jpg" alt="Island">
                 <p class="description">A tropical island resort.  Includes  activities, amenities and contact information.<br><br><em>HTML, CSS</em>
                 </p>
               </div>
-                              <!-- Project box -->
-              <div class="panel panel-default">
-                <a href="https://github.com/GalinMcMahon/wikipedia.git">
-                <img class="panel-image" src="img/wikilogo.png" alt="Wikipedia Logo">
-                <p class="description">A quick re-creation of the Wikipedia main page.<br><br><em>HTML, CSS</em><center></p>
-              </div>
-                              <!-- Project box -->
-              <div class="panel panel-default">
-                <a href="https://github.com/GalinMcMahon/Animal.git">
-                <img class="panel-image" src="img/dogicon.jpg" alt="Dog Icon">
-                <p class="description">A cat and dog shelter.  Includes information about specific animals available for adoption.<br><br><em>HTML, CSS</em></p>
-              </div>
-                              <!-- Project box -->
-              <div class="panel panel-default">
-                <a href="https://github.com/GalinMcMahon/Cupcakes.git">
-                <img class="panel-image" src="img/cupcake.jpg" alt="Cupcake">
-                <p class="description">Cupcakes in all of their sugary glory.  Every color and flavor you could possibly desire!<br><br><em>HTML, CSS</em></p>
-              </div>
-                              <!-- Project box -->
-              <div class="panel panel-default">
-                <a href="https://github.com/GalinMcMahon/week-in-review.git">
-                <img class="panel-image" src="img/lights.jpg" alt="Northern Lights">
-                <p class="description">A travel website that only has places I would like to visit.  Yes, including Mars.<br><br><em>HTML, CSS</em></p>
-              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <div class="panel panel-default">
+              <a href="https://github.com/GalinMcMahon/wikipedia.git">
+              <img class="panel-image" src="img/wikilogo.png" alt="Wikipedia Logo">
+              <p class="description">A quick re-creation of the Wikipedia main page.<br><br><em>HTML, CSS</em><center></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <div class="panel panel-default">
+              <a href="https://github.com/GalinMcMahon/Animal.git">
+              <img class="panel-image" src="img/dogicon.jpg" alt="Dog Icon">
+              <p class="description">A cat and dog shelter.  Includes information about specific animals available for adoption.<br><br><em>HTML, CSS</em></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <div class="panel panel-default">
+              <a href="https://github.com/GalinMcMahon/Cupcakes.git">
+              <img class="panel-image" src="img/cupcake.jpg" alt="Cupcake">
+              <p class="description">Cupcakes in all of their sugary glory.  Every color and flavor you could possibly desire!<br><br><em>HTML, CSS</em></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <div class="panel panel-default">
+              <a href="https://github.com/GalinMcMahon/week-in-review.git">
+              <img class="panel-image" src="img/lights.jpg" alt="Northern Lights">
+              <p class="description">A travel website that only has places I would like to visit.  Yes, including Mars.<br><br><em>HTML, CSS</em></p>
             </div>
           </div>
 
         </div>
       </div>
     </div>
-
   </body>
 </html>
